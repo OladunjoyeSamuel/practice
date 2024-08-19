@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="practice.css">
+    </head>
+    
+<body>
+    <h2>Workers Info.</h2>
+    <h3>Worker #112</h3>
+    <p id="para1"></p>
+    <button id = 'workinfo' onclick="document.getElementById('para1').innerHTML = ('Name: ' + worker.name.firstname + worker.name.lastname + '<br>' 
+    + 'Age: ' + worker.age + '<br>'
+    + 'Work: ' + worker.work.workplace + worker.work.location.street + worker.work.location.area + '<br>' 
+    + 'Hobbies: ' + worker.hobbies.workhub + worker.hobbies.recreation + worker.hobbies.sports)">Worker Info</button>
+    <p id="para3"></p>
+    <button onclick="myfunction()">Greetings</button>
+</body>
+<script src="practice.js"></script>
+</html>
